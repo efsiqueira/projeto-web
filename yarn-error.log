@@ -27,8 +27,8 @@ npm manifest:
     "private": true,
     "version": "1.0.0",
     "main": "index.js",
-    "repository": "https://github.com/faustort/senac-projetoweb.git",
-    "author": "Senac <fausto.toloi@prof.sc.senac.br>",
+    "repository": "https://github.com/efsiqueira/projeto-web.git",
+    "author": "Eduardo <edu.fss14@gmail.com>",
     "license": "MIT",
     "scripts": {
       "watch:p": "webpack --watch"
