@@ -1,2 +1,7 @@
 import "../scss/app.scss";
-console.log("Hello World")
+import init from "./formulario";
+import form from "./formulario";
+
+console.log("Hello World");
+
+init("formCadastro")
