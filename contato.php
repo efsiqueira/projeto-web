@@ -1,22 +1,25 @@
 <?php
-include "header.php";
+include "header.php"
 ?>
 <div class="container">
   <div class="row">
     <div class="col-12">
       <h1>Fale conosco</h1>
-      <div class="">
-        <form action="">
-          <label for="nome"></label>
+      <form action="" class="formulario">
+        <div>
+          <label for="nome">Digite seu nome</label>
           <input type="text" name="nome" id="nome">
-          <label for="email">Digite seu e-mail</label>
-          <input type="text" name="email" id="email">
-          <input type="submit" value="Enviar">
-        </form>
-      </div>
+        </div>
+        <div>
+          <label for="email">Digite seu email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div>
+          <label for="cpf">Digite seu CPF</label>
+          <input type="text" name="campoCpf" id="cpf">
+        </div>
+        <input type="submit" value="Enviar">
+      </form>
     </div>
   </div>
 </div>
-<?php
-include "footer.php";
-?>
